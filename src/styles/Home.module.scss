@@ -2,11 +2,12 @@ div#container {
   width: 100%;
   height: 100vh;
   
-  div#image {
-    width: 100vh;
-    height: 100vh;
+  display: flex;
+  justify-content: flex-end;
 
-    float: right;
+  div#image {
+    width: 120vh;
+    height: 100vh;
 
     box-sizing: border-box;
 
