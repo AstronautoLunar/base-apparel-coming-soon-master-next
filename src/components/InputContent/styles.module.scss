@@ -9,7 +9,7 @@ form.form {
         position: relative;
         
         input.inputContent {
-            border: 2px solid var(--neutral-dark-grayish-red);
+            border: 2px solid rgba(65, 58, 58, 0.2);
             border-right: none;
 
             width: 380px;
@@ -17,6 +17,9 @@ form.form {
             opacity: 0.3;
         
             padding: 11px 20px;
+
+            outline: none;
+            box-shadow: none;
         }
 
         input.inputContent::placeholder {
@@ -63,4 +66,17 @@ span.textError {
 
 form.form, div.areaInput {
     display: flex;
+}
+
+@media screen and (max-width: 1011px) {
+    form.form {
+        margin-left: 0;
+
+        div.areaInput {
+
+            input.inputContent {
+                width: 200px;
+            }
+        }
+    }
 }

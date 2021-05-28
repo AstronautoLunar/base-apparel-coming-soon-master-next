@@ -39,7 +39,7 @@ export default function InputContent() {
         if(!emailValidate) {
             setStyleBorder(styleBorder = "#F96464");
         } else {
-            setStyleBorder(styleBorder = "#413a3a");
+            setStyleBorder(styleBorder = "rgba(65, 58, 58, 0.5)");
         }
     }, [ emailValidate, styleBorder, setStyleBorder ])
 

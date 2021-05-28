@@ -10,14 +10,14 @@ header#logo {
     margin-top: 50px;
 }
 
-@media screen and (max-width: 1126px) {
+@media screen and (max-width: 1011px) {
     header#logo {
-        height: 150px;
+        height: 75px;
 
         margin-left: 0;
 
         img[src="/logo.svg"] {
-            margin-left: 15vw;
+            margin-left: 10vw;
         }
     }
 }

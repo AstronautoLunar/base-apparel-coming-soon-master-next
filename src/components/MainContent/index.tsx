@@ -13,7 +13,13 @@ export default function MainContent() {
         <main id={styles.main} role="main">
             <HeaderLogo/>
             {
-                image && <div className={styles.image}/>
+                image 
+                && 
+                <img
+                    className={styles.imageMobile}
+                    src="/hero-mobile.jpg" 
+                    alt="mobile image"
+                />
             }
             <div id={styles.areaContent}>
                 <Content/>

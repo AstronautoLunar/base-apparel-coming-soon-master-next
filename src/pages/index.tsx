@@ -10,7 +10,7 @@ export default function Home() {
   let { image, setImage } = useImage();
 
   useEffect(() => {
-    const mediaQuerieList = matchMedia('(max-width: 1126px)')
+    const mediaQuerieList = matchMedia('(max-width: 1011px)')
 
     function hiddenImageMain(mediaQuerieList) {
       if(mediaQuerieList.matches) {
