@@ -1,14 +1,16 @@
 <h1 align="center">base-apparel-coming-soon-master</h1>
 
+<div align="center">
+    <img
+         src="https://github.com/Pyedrown/base-apparel-coming-soon-master-next/blob/main/presentation.PNG"
+         alt="presentation image"
+    />
+</div>
+
 <p align="center">Desafio concluido da plataforma front end mentor</p>
 
-<h1 align="center">
-    <a href="https://nextjs.org//">🔗 Next</a>
-</h1>
-<p align="center">🚀 Framework React para construção de páginas estáticas renderizados no servidor</p>
-
 <h4 align="center"> 
-  Concluido
+  ✅ Concluido ✅
 </h4>
 
 <!--ts-->
